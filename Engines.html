@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engines</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: wheat;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .navbar-brand:hover {
+            color: #d4d4ff;
+        }
+
+        .nav-link {
+            color: #d9e6f2;
+            font-size: 1.1rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #fff;
+        }
+
+        .navbar-toggler {
+            border: none;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-item:last-child {
+            margin-right: 0;
+        }
+
+        .navbar-nav {
+            align-items: center;
+        }
+
+        @media (max-width: 991px) {
+            .navbar-nav {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .nav-item {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .nav-item:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .mt-custom {
+            margin-top: 100px;
+        }
+        .card-img {
+            height: 300px;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer a {
+            color: #d9e6f2;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .footer .container {
+            max-width: 800px;
+        }
+
+        .footer p {
+            margin-bottom: 0;
+            font-size: 1.1rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">Consortium of Information Retrievers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Engines.html">Engines</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section mt-custom">
+            <div class="container">
+                <div class="col-md-12">
+                    <h1 class="display-3 fw-bold">Engines</h1>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet cum consequatur, alias fugiat consectetur inventore et amet soluta provident nam. Unde placeat ipsam inventore voluptate, tempora iusto id officiis ad!</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- top 10 engines -->
+        <section class="mt-5">
+            <div class="container card-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://1000logos.net/wp-content/uploads/2023/01/Baidu-logo-500x300.png" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Baidu</h5>
+                                <p class="card-text">Popular Search Engin in China</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://banner2.cleanpng.com/20181110/hoy/kisspng-yandex-search-search-engine-yandex-maps-bing-first-commit-74-e-4f3cf-gogs-go-git-service-1713924549274.webp" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Yandex</h5>
+                                <p class="card-text">Popular Search Engin in Russian</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/The_DuckDuckGo_Duck.png/600px-The_DuckDuckGo_Duck.png?20211207123706" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">DuckDuckDo</h5>
+                                <p class="card-text">Popular Search Engin in America</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://logos-world.net/wp-content/uploads/2021/04/Shenma-Search-Logo-700x394.png" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Shenma</h5>
+                                <p class="card-text">Popular Search Engin in China</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://seekvectors.com/storage/images/Naver-Logo-04.svg    " alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Naver</h5>
+                                <p class="card-text">Popular Search Engin in Southkorea</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4dyEs1LuiekqZjUus9taGcJBmoOnqP2keKa3eQj0YkYXpcQH-" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Ecosia</h5>
+                                <p class="card-text">Popular Search Engin in Germany</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://www.ask.com/wp-content/themes/ask-2022/assets/images/site-logo.svg" height="512px" width="512px" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Ask.com</h5>
+                                <p class="card-text">Popular Search Engin in Canada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://cdn.vox-cdn.com/thumbor/FnM2Fven2oJe6DH883pzLk960yY=/0x0:660x440/1400x1400/filters:focal(330x220:331x221)/cdn.vox-cdn.com/uploads/chorus_asset/file/21937385/binglogo.jpg" alt="" class="img-fluid"></div>
+                                <h5 class="card-title">Bing</h5>
+                                <p class="card-text">Popular Search Engin in USA , Canada , UK</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mt-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="card-img"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEFMDaDygaMNhmS1gDEPAIyJ4O-4Du1qc0O4F6TTZwU-VmHp_P" alt="" class="mt-custom img-fluid"></div>
+                                <h5 class="card-title">You.com</h5>
+                                <p class="card-text">Popular Search Engin in USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <footer class="footer mt-5">
+            <div class="container text-center">
+                <p>&copy; 2025 Consortium of Information Retrievers. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </footer>
+
+    </main>
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
